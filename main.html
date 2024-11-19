@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000; /* Black background */
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        h1 {
+            color: yellow; /* Yellow color for the heading */
+            text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex; /* Ensures buttons are in a horizontal line */
+            gap: 15px; /* Adds spacing between buttons */
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #FF5733;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .back-button:hover {
+            background-color: #C03A1A;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <div class="button-container">
+        <a href="kasthuri.JPG" class="button">Kasthuri</a>
+        <a href="sathish.jpg" class="button">Sathish</a>
+        <a href="uma.jpeg" class="button">Uma</a>
+        <a href="bhuvana.png" class="button">Bhuvana</a>
+        <a href="kavya.jpg" class="button">Kavya</a>
+        <a href="santhosh.jpg" class="button">Santhosh</a>
+        <a href="ramya.jpg" class="button">Ramya</a>
+        <a href="thulasi.jpg" class="button">Thulasi</a>
+    </div>
+
+    
+</body>
+</html>
